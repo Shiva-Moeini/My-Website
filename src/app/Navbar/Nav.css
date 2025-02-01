@@ -1,0 +1,67 @@
+/* src/components/Header.module.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  font-weight: bold;
+  background-color: #e7e3e3;
+}
+
+.logo {
+  font-size: 24px;
+  color: rgb(10, 10, 175);
+}
+
+.nav {
+  display: flex;
+  gap: 50px;
+}
+
+.navItem {
+  text-decoration: none;
+  color: rgb(10, 10, 175);
+  font-weight: normal;
+}
+
+
+
+/* --- Responsive Styles --- */
+
+/* Small Screens (e.g., phones) */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align left */
+    padding: 10px; /* Reduce padding */
+  }
+
+  .logo {
+    margin-bottom: 10px; /* Add space after logo */
+    font-size: 22px; /* Reduce logo font size */
+  }
+
+  .nav {
+    flex-direction: column; /* Stack nav links vertically */
+    align-items: flex-start; /* Align nav links to left */
+    gap: 5px;
+    margin-bottom: 10px;/* Reduce spacing */
+  }
+  .navItem {
+    font-size: 14px;
+    padding-left: 10px; /* Reduce font size */
+  }
+
+  .actions {
+    align-items: center;
+  }
+}
+/* Tablets and medium devices*/
+@media (min-width: 769px) and (max-width: 1024px) {
+    .nav {
+       gap: 15px;
+    }
+     .navItem {
+       font-size: 15px;
+    }
+}
