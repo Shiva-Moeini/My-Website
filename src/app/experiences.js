@@ -1,6 +1,6 @@
 function Experiences () {
   return (
-    <div className="bg-slate-900 min-h-screen py-16 text-white">
+    <div className="bg-slate-900 min-h-screen py-16 text-white" id="experiences">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-10 text-center">Experiences</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

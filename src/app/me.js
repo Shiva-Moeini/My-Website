@@ -5,7 +5,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function Hero() {
     return (
-      <div className="bg-gray-900 py-16 text-white">
+      <div className="bg-gray-900 py-16 text-white " id='me'>
          <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row gap-8 items-center">
                 <div className="md:w-1/2 p-6">

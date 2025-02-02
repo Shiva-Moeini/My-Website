@@ -2,14 +2,14 @@ import React from 'react';
 
 const Achievements = () => {
   return (
-    <div className="bg-slate-900 py-16 text-white">
+    <div className="bg-slate-900 py-16 text-white " id='achievements'>
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-10 text-center">
           Achievements and Certifications
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Achievement Card 1: AWS Certified Cloud Practitioner */}
-          <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-slate-800 rounded-lg shadow-md overflow-hidden">
             <div className="bg-gray-700 py-4 relative">
               <h3 className="text-center text-lg font-semibold">
                 AWS Certified Cloud Practitioner
@@ -35,7 +35,7 @@ const Achievements = () => {
           </div>
 
           {/* Achievement Card 2: Azure Fundamentals */}
-          <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-slate-800 rounded-lg shadow-md overflow-hidden">
             <div className="bg-gray-700 py-4 relative">
               <h3 className="text-center text-lg font-semibold">
                 Azure Fundamentals
@@ -61,7 +61,7 @@ const Achievements = () => {
           </div>
 
           {/* Achievement Card 3: Azure Data Fundamentals */}
-          <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-slate-800 rounded-lg shadow-md overflow-hidden">
             <div className="bg-gray-700 py-4 relative">
               <h3 className="text-center text-lg font-semibold">
                 Azure Data Fundamentals
@@ -87,7 +87,7 @@ const Achievements = () => {
           </div>
 
           {/* Achievement Card 4: Docker - SWARM  */}
-          <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-slate-800 rounded-lg shadow-md overflow-hidden">
             <div className="bg-gray-700 py-4 relative">
               <h3 className="text-center text-lg font-semibold">
                 Docker - SWARM
@@ -113,7 +113,7 @@ const Achievements = () => {
           </div>
 
           {/* Achievement Card 5: Kubernetes */}
-          <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-slate-800 rounded-lg shadow-md overflow-hidden">
             <div className="bg-gray-700 py-4 relative">
               <h3 className="text-center text-lg font-semibold">
                 Kubernetes
@@ -139,7 +139,7 @@ const Achievements = () => {
           </div>
 
           {/* Achievement Card 6: Google UX Design */}
-          <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-slate-800 rounded-lg shadow-md overflow-hidden">
             <div className="bg-gray-700 py-4 relative">
               <h3 className="text-center text-lg font-semibold">
                 Google UX Design

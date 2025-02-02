@@ -3,13 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAws, faDocker, faJs, faNodeJs, faHtml5, faCss, faLinux } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faCloud } from '@fortawesome/free-solid-svg-icons';
 
-function Do() {
+function Skills() {
     return (
-        <div className="bg-slate-900 py-16 text-white mt-12">
+        <div className="bg-slate-900 py-16 text-white mt-12" id='skills'>
             <div className="container mx-auto px-4">
             {/* Heading */}
              <h2 className="text-4xl font-bold mb-6 text-center">
-                What I Do
+                Skills
                 </h2>
                  {/* Subheading */}
                 <p className="text-lg mb-12 text-gray-400 text-center">
@@ -46,4 +46,4 @@ function Do() {
     );
 }
 
-export default Do;
+export default Skills;

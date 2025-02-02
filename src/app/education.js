@@ -2,7 +2,7 @@ import React from 'react';
 
 function Education() {
     return (
-        <div className="bg-white py-16 text-gray-800">
+        <div className="bg-white py-16 text-gray-800" id='education'>
             <div className="container mx-auto px-4">
                   {/* Heading */}
                   <h2 className="text-4xl font-bold text-center mb-10 ">

@@ -2,7 +2,7 @@ import React from 'react';
 
 function MyStory() {
     return (
-        <div className="bg-white py-16 text-gray-800">
+        <div className="bg-white py-16 text-gray-800 "id='mystory'>
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold mb-10 text-center">
               My Story

@@ -1,12 +1,12 @@
-import Nav from './Nav'
+import Nav from './nav'
 import './globals.css'
-import Hero from './img'
-import MyStory from './about-me'
-import Achievements from './Achievements'
-import Do from './do'
+import Hero from './me'
+import MyStory from './myStory'
+import Achievements from './achievements'
+import Skills from './skills'
 import Education from './education'
 import Experiences from './experiences'
-import Contact from './footer'
+import Footer from './contact'
 
 
 
@@ -18,10 +18,10 @@ export default function Home() {
     <Hero/>
     <MyStory/>
     <Achievements/>
-    <Do />
+    <Skills />
     <Education/>
     <Experiences/>
-    <Contact/>
+    <Footer/>
         </>
   );
 }
