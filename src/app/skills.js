@@ -7,16 +7,16 @@ function Skills() {
     return (
         <div className="bg-slate-900 py-16 text-white mt-12" id='skills'>
             <div className="container mx-auto px-4">
-            {/* Heading */}
+          
              <h2 className="text-4xl font-bold mb-6 text-center">
                 Skills
                 </h2>
-                 {/* Subheading */}
+                 
                 <p className="text-lg mb-12 text-gray-400 text-center">
                   I work across the full stack, with a passion for creating robust and scalable applications.
                 </p>
 
-                {/* Icons Grid */}
+                
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 justify-items-center">
                     {[
                       { icon: faAws, label: "AWS" },

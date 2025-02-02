@@ -7,7 +7,7 @@ function Footer() {
     return (
         <div className="bg-white py-16 text-gray-800" id='contact'>
             <div className="container mx-auto px-4 text-center">
-                  <h2 className="text-4xl font-bold mb-10">
+                  <h2 className="text-4xl font-bold mb-2">
                         Let's Connect
                    </h2>
                   <div className="p-6">

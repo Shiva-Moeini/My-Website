@@ -29,7 +29,7 @@ function Experiences () {
           
           
           
-          {/* Experience Card 1: Facebook */}
+         
           <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden">
             <div className=" bg-red-700 py-8 relative">
               <h3 className="text-center text-3xl font-semibold">LotusNet</h3>
@@ -48,7 +48,7 @@ function Experiences () {
             </div>
           </div>
 
-          {/* Experience Card 2: Quora */}
+          
           <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden">
             <div className="bg-blue-700 py-8 relative">
               <h3 className="text-center text-3xl font-semibold">LotusNet</h3>
@@ -68,7 +68,7 @@ function Experiences () {
             </div>
           </div>
 
-          {/* Experience Card 3: Airbnb */}
+          
           <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden">
             <div className="bg-red-700 py-8 relative">
               <h3 className="text-center text-3xl font-semibold">Self-Employed</h3>
@@ -107,9 +107,6 @@ function Experiences () {
               </ul>
             </div>
           </div>
-
-
-          
 
         </div>
       </div>

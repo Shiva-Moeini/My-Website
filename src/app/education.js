@@ -4,16 +4,15 @@ function Education() {
     return (
         <div className="bg-white py-16 text-gray-800" id='education'>
             <div className="container mx-auto px-4">
-                  {/* Heading */}
+                
                   <h2 className="text-4xl font-bold text-center mb-10 ">
                         Education
                   </h2>
 
-                 {/* University */}
+                 
                   <div className="rounded-lg shadow-md p-8">
                       <div className="flex items-center mb-4">
-                             {/* University Logo */}
-                              <img
+                               <img
                                   src="/uni.png"
                                    alt="Payame Noor University Logo"
                                    className="w-12 h-12 mr-4"
