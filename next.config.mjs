@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    output: "export", // Enables static export
+    basePath: "/My-Website", // Replace with your GitHub repo name
+    images: {
+      unoptimized: true, // Fixes image issues
+    },
+  };
+  
+  export default nextConfig;
+  
