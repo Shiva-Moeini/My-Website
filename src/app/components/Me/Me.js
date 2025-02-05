@@ -35,7 +35,7 @@ function Me({
                         <a href={githubLink} target="_blank" rel="noopener noreferrer" className='text-gray-300 hover:text-white'>
                             <FontAwesomeIcon icon={faGithub} className="w-7 h-7" />
                         </a>
-                        <a href={emailAddress} className='text-gray-300 hover:text-white'>
+                        <a href={`mailto:${emailAddress}`} className='text-gray-300 hover:text-white'>
                             <FontAwesomeIcon icon={faEnvelope} className="w-7 h-7" />
                         </a>
                         <a href={linkedinLink} target="_blank" rel="noopener noreferrer" className='text-gray-300 hover:text-white'>
